@@ -533,6 +533,11 @@ nav ul li.active{color: var(--main-color);}
 #test h2 {
     margin-bottom: 50px;
 }
+@media (max-width: 991px) {
+    #test .texts .box {
+        margin-bottom: 20px;
+    }
+}
 /* end test */
 
 /* start contact */
