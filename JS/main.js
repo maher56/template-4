@@ -7,7 +7,7 @@ function showImages() {
     if(!needToShowImage)return;
     needToShowImage = 0;
     let images = [] , counterImages = 0;
-    for(let i = 1 ; i <=  9;i++)images.push(`../imags/a${i}.jpg`)
+    for(let i = 1 ; i <=  9;i++)images.push(`imags/a${i}.jpg`)
     imagesInterval = setInterval(() => {
         document.querySelector(".header").style.backgroundImage = `url(${images[counterImages++ % images.length]})`}, 5000)
 }

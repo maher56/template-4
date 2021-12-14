@@ -163,7 +163,7 @@ pointer-events: none;
 .header {
     position: relative;
     overflow: hidden;
-    background: url(/imags/a9.jpg) no-repeat;
+    background: url(../imags/a1.jpg) no-repeat;
     min-height: 100vh;
     background-size: cover;
     color: #fff;
@@ -538,7 +538,7 @@ nav ul li.active{color: var(--main-color);}
 /* start contact */
 #contact {
     min-height: 600px;
-    background-image: url(/imags/Big-Venado-3bijgwyrluyfwkqo353lds.jpg);
+    background-image: url(../imags/Big-Venado-3bijgwyrluyfwkqo353lds.jpg);
     background-size: cover;
     position: relative;
 }
